@@ -1,0 +1,195 @@
+@media(max-width:450px){
+
+
+
+
+    .brand {
+        margin: 30px;
+    }
+
+
+    .search-group {
+        margin: 0 30px;
+        width: calc(100% - 60px);
+    
+
+    }
+
+    .search-group input {
+        padding-right: 110px;
+    }
+
+   
+  
+
+    nav {
+   
+        padding: 15px 20px;
+      
+
+    }
+
+    nav a {
+     
+        font-size: 10px;
+    }
+
+    nav a.optional{
+        display: none;
+    }
+
+
+
+    #trending,
+    #gallery,
+    #contact {
+       
+        padding: 100px 30px;
+       
+    }
+
+    #trending h2,
+    #gallery h2,
+    #contact h2 {
+        font-size: 30px;
+      
+    }
+
+
+
+
+
+    .row-1 {
+ 
+        gap: 15px;
+    }
+
+    .row-1 img {
+        width: 100px;
+        height: 75px;
+     
+
+    }
+
+    .row-2 {
+        
+        gap: 15px;
+    }
+
+    .row-2 img {
+        width: 100px;
+        height: 75px;
+       
+    }
+
+    .row-2 span {
+   
+        gap: 15px;
+    }
+
+    .row-2 .big-img {
+        width: 215px;
+        height: 165px;
+    }
+
+
+    #account {
+  
+        padding: 100px 30px;
+      
+
+    }
+
+    #account h2 {
+        font-size: 30px;
+    
+    }
+
+    #account form {
+        width: 100%;
+        padding: 100px 30px;
+       
+
+    }
+
+    form div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    form div input {
+        width: 45%;
+        padding: 10px 0px;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        outline: none;
+        font-size: 18px;
+    }
+
+    form div.address input {
+        width: 100%;
+    }
+
+    form button {
+        width: fit-content;
+        padding: 10px 35px;
+        border: none;
+        background-color: rgb(237, 237, 237);
+        color: grey;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    form button:hover {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    #contact {
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("./images/map.png");
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+    #contact address {
+        padding: 50px 60px;
+        background-color: white;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        font-size: 20px;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+
+
+    footer {
+        width: 100%;
+        padding: 30px 0;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
